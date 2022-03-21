@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Next.js Sushi Hub
+
+This is a [Next.js](https://nextjs.org/) Sushi Foursquare project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+- NodeJS 8, Next.js 12, Typescript
+- Styles: css, postcss
+- Backend: [Foursquare](https://developer.foursquare.com/reference/places-nearby)
+- SSG System: getStaticProps | getStaticPaths
+
+<p align="center">
+  <a href="http://nextjs.org/" target="blank"><img src="sushi-hub-template.jpg" width="960" alt="Sample Blog NextJs" /></a>
+</p>
 
 ## Getting Started
 
@@ -12,7 +24,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/[id].tsx`. The page auto-updates as you edit the file.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
