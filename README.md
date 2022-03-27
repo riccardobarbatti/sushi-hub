@@ -3,7 +3,7 @@
 
 This is a [Next.js](https://nextjs.org/) Sushi Foursquare project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-- NodeJS 8, Next.js 12, Typescript
+- NodeJS, Next.js 12, Typescript
 - Styles: css, postcss
 - Backend: [Foursquare](https://developer.foursquare.com/reference/places-nearby)
 - SSG System: getStaticProps | getStaticPaths
